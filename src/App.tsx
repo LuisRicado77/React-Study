@@ -1,13 +1,12 @@
 
 import React from 'react';
 import Alert from './components/Alert';
+import  { Button } from './components/Button';
 
 function App() {
   return (
     <div>
-      <Alert>
-        Pan
-      </Alert>
+      <Button></Button>
     </div>
   );
 }

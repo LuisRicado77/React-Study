@@ -5,8 +5,8 @@ interface Props{
 }
 const Alert = ({children}:Props) => {
   return (
-    <div className="alert alert-prymary">{children}</div>
-  )
+   <div className="alert alert-prymary">{children}</div>
+  ) 
 }
 
 export default Alert
