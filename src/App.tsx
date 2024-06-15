@@ -6,7 +6,7 @@ import  { Button } from './components/Button';
 function App() {
   return (
     <div>
-      <Button></Button>
+      <Button color='primary' onClick={() => console.log('Clicked')}>ama</Button>
     </div>
   );
 }
